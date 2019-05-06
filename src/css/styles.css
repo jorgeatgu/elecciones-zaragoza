@@ -5,3 +5,213 @@
 */
 
 @import '_variables';
+
+.header {
+    font-size: 3rem;
+    font-family: var(--title);
+    text-align: center;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-family: var(--title);
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-family: var(--title);
+}
+
+.note {
+    font-size: .75rem;
+    font-family: var(--text);
+}
+
+.text {
+    font-size: 1rem;
+    font-family: var(--title);
+    max-width: 25rem;
+}
+
+.district-zgz,
+.district-ara,
+.scatter-up,
+.scatter-pp,
+.scatter-psoe,
+.scatter-cs,
+.scatter-vox {
+    width: 100%;
+    margin: 3rem auto;
+    position: relative;
+    text {
+        font-family: var(--text);
+        font-size: .75rem;
+    }
+    .axis-y {
+        line {
+            stroke: #ccc;
+            stroke-dasharray: 3px;
+        }
+        .domain {
+            stroke: none;
+        }
+    }
+    .axis-x {
+        .domain {
+            stroke: none;
+        }
+    }
+}
+
+.overlay-dos {
+    fill: transparent;
+}
+
+.tooltip {
+    padding: 1rem;
+    background-color: var(--white);
+    border-radius: 2px;
+    position: absolute;
+    opacity: 1;
+    box-shadow: var(--shadow);
+}
+
+.tooltip-stack-number {
+    font-size: 1.5rem;
+    font-family: var(--text);
+    font-weight: bold;
+}
+
+.tooltip-stack-text {
+    display: block;
+    font-family: var(--text);
+}
+
+.tooltip-number {
+    font-weight: bold;
+    display: inline-block;
+    font-family: var(--text);
+}
+
+.x-hover-line {
+    stroke: var(--black);
+}
+
+.chart-diff {
+    circle {
+        stroke: var(--black);
+    }
+    text {
+        font-family: var(--text);
+        font-size: 12px;
+    }
+
+    .circle-PP {
+        fill: #0080b8;
+    }
+
+    .circle-PSOE {
+        fill: #e30613;
+    }
+
+    .circle-UP {
+        fill: #60195E;
+    }
+
+    .circle-CIUDADANOS {
+        fill: #f07a36;
+    }
+
+    .circle-VOX {
+        fill: #69BA36;
+    }
+
+    .axis-x {
+        .tick {
+
+            /* stylelint-disable */
+            line {
+                stroke-dasharray: 3px 3px;
+                stroke: #a29e9e;
+            }
+
+            /* stylelint-enable */
+        }
+    }
+
+    .axis-y {
+        .domain {
+            stroke: none;
+        }
+
+        .tick {
+
+            /* stylelint-disable */
+            line {
+                stroke: #a29e9e;
+                stroke-dasharray: 3px 3px;
+
+            }
+
+            /* stylelint-enable */
+        }
+    }
+
+    .legend-rect {
+        fill: none;
+    }
+
+    .PSOE {
+        .legend-rect {
+            fill: #e30613;
+        }
+    }
+
+    .UP {
+        .legend-rect {
+            fill: #60195E;
+        }
+    }
+
+    .CIUDADANOS {
+        .legend-rect {
+            fill: #f07a36;
+        }
+    }
+
+    .VOX {
+        .legend-rect {
+            fill: #69BA36;
+        }
+    }
+
+    .PP {
+        .legend-rect {
+            fill: #0080b8;
+        }
+    }
+
+    .container-labels {
+        cursor: pointer;
+
+        &:hover {
+
+            /* stylelint-disable */
+            .legend-text {
+                font-weight: bold;
+            }
+
+            /* stylelint-enable */
+        }
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+
+    .district-zgz,
+    .district-ara {
+        width: 50rem;
+    }
+
+}
+

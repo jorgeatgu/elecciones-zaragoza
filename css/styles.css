@@ -1,0 +1,592 @@
+/*! normalize.css v9.0.1 | MIT License | github.com/csstools/normalize.css */
+
+/* Document
+ * ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+ * ========================================================================== */
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+ * ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+ * ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Add the correct text decoration in Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/* Embedded content
+ * ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+ * ========================================================================== */
+
+/**
+ * Remove the margin in Safari.
+ */
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+/**
+ * 1. Show the overflow in IE.
+ * 2. Remove the inheritance of text transform in Edge, Firefox, and IE.
+ */
+
+button {
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Show the overflow in Edge and IE.
+ */
+
+input {
+  overflow: visible;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in Edge and IE.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the inheritance of text transform in Firefox.
+ */
+
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Remove the margin in Firefox and Safari.
+ * 2. Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Safari.
+ */
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding of focus outlines in Firefox.
+ */
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus outline styles unset by the previous rule in Firefox.
+ */
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* Interactive
+ * ========================================================================== */
+
+/*
+ * Add the correct display in Edge and IE.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct styles in Edge, IE, and Safari.
+ */
+
+dialog {
+  background-color: white;
+  border: solid;
+  color: black;
+  display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+dialog:not([open]) {
+  display: none;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* User interaction
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/*
+  Base CSS por Jorge Aznar
+  https://jorgeatgu.com
+  Estructura básica para iniciar cualquier proyecto con postCSS
+*/
+
+:root {
+  --fontSystem: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  --monospace: 'SFMono-Regular', Consolas, Menlo, Courier, monospace;
+  --title: 'Playfair Display', serif;
+  --text: 'Roboto Condensed', sans-serif;
+  --black: #111;
+  --white: #fff;
+  --background: #FBDED5;
+  --shadow: 0 2px 4px 0 rgba(0, 0, 0, .31), 0 2px 4px 0 rgba(50, 50, 58, .2);
+}
+
+.header {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
+    text-align: center;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
+}
+
+.note {
+    font-size: .75rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--text);
+}
+
+.text {
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
+    max-width: 25rem;
+}
+
+.district-zgz,
+.district-ara,
+.scatter-up,
+.scatter-pp,
+.scatter-psoe,
+.scatter-cs,
+.scatter-vox {
+    width: 100%;
+    margin: 3rem auto;
+    position: relative;
+}
+
+.district-zgz text, .district-ara text, .scatter-up text, .scatter-pp text, .scatter-psoe text, .scatter-cs text, .scatter-vox text {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: var(--text);
+        font-size: .75rem;
+    }
+
+.district-zgz .axis-y line, .district-ara .axis-y line, .scatter-up .axis-y line, .scatter-pp .axis-y line, .scatter-psoe .axis-y line, .scatter-cs .axis-y line, .scatter-vox .axis-y line {
+            stroke: #ccc;
+            stroke-dasharray: 3px;
+        }
+
+.district-zgz .axis-y .domain, .district-ara .axis-y .domain, .scatter-up .axis-y .domain, .scatter-pp .axis-y .domain, .scatter-psoe .axis-y .domain, .scatter-cs .axis-y .domain, .scatter-vox .axis-y .domain {
+            stroke: none;
+        }
+
+.district-zgz .axis-x .domain, .district-ara .axis-x .domain, .scatter-up .axis-x .domain, .scatter-pp .axis-x .domain, .scatter-psoe .axis-x .domain, .scatter-cs .axis-x .domain, .scatter-vox .axis-x .domain {
+            stroke: none;
+        }
+
+.overlay-dos {
+    fill: transparent;
+}
+
+.tooltip {
+    padding: 1rem;
+    background-color: #fff;
+    background-color: var(--white);
+    border-radius: 2px;
+    position: absolute;
+    opacity: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .31), 0 2px 4px 0 rgba(50, 50, 58, .2);
+    box-shadow: var(--shadow);
+}
+
+.tooltip-stack-number {
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--text);
+    font-weight: bold;
+}
+
+.tooltip-stack-text {
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--text);
+}
+
+.tooltip-number {
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--text);
+}
+
+.x-hover-line {
+    stroke: #111;
+    stroke: var(--black);
+}
+
+.chart-diff circle {
+        stroke: #111;
+        stroke: var(--black);
+    }
+
+.chart-diff text {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: var(--text);
+        font-size: 12px;
+    }
+
+.chart-diff .circle-PP {
+        fill: #0080b8;
+    }
+
+.chart-diff .circle-PSOE {
+        fill: #e30613;
+    }
+
+.chart-diff .circle-UP {
+        fill: #60195E;
+    }
+
+.chart-diff .circle-CIUDADANOS {
+        fill: #f07a36;
+    }
+
+.chart-diff .circle-VOX {
+        fill: #69BA36;
+    }
+
+.chart-diff .axis-x .tick {
+
+            /* stylelint-enable */
+        }
+
+/* stylelint-disable */
+
+.chart-diff .axis-x .tick line {
+                stroke-dasharray: 3px 3px;
+                stroke: #a29e9e;
+            }
+
+.chart-diff .axis-y .domain {
+            stroke: none;
+        }
+
+.chart-diff .axis-y .tick {
+
+            /* stylelint-enable */
+        }
+
+/* stylelint-disable */
+
+.chart-diff .axis-y .tick line {
+                stroke: #a29e9e;
+                stroke-dasharray: 3px 3px;
+
+            }
+
+.chart-diff .legend-rect {
+        fill: none;
+    }
+
+.chart-diff .PSOE .legend-rect {
+            fill: #e30613;
+        }
+
+.chart-diff .UP .legend-rect {
+            fill: #60195E;
+        }
+
+.chart-diff .CIUDADANOS .legend-rect {
+            fill: #f07a36;
+        }
+
+.chart-diff .VOX .legend-rect {
+            fill: #69BA36;
+        }
+
+.chart-diff .PP .legend-rect {
+            fill: #0080b8;
+        }
+
+.chart-diff .container-labels {
+        cursor: pointer;
+    }
+
+.chart-diff .container-labels:hover {
+
+            /* stylelint-enable */
+        }
+
+/* stylelint-disable */
+
+.chart-diff .container-labels:hover .legend-text {
+                font-weight: bold;
+            }
+
+@media only screen and (min-width: 48rem) {
+
+    .district-zgz,
+    .district-ara {
+        width: 50rem;
+    }
+
+}
+
+
+/*# sourceMappingURL=styles.css.map */

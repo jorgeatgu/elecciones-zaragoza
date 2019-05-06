@@ -7,22 +7,265 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Playfair+Display:400,700" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav></nav>
-        </header>
+        <h1 class="header">Elecciones 28A - Zaragoza</h1>
+        <div class="district-zgz">
+            <h3 class="title">Resultados por distrito</h3>
+            <div class="container-chart">
+                <article class="chart-diff">
+                    <svg class="charts">
+                        <g class="chart-diff-container"></g>
+                    </svg>
+                </article>
+            </div>
+        </div>
+        <article class="district-ara caida-pp">
+            <h3 class="subtitle">¿Donde ha ido el voto que ha perdido el Partido Popular?</h3>
+            <p class="text">En 231 secciones el voto que ha perdido el PP no lo ha llegado a absorber por completo Vox y Ciudadanos.</p>
+            <p class="text">En 65 secciones lo que perdió el PP lo asumió Ciudadanos y Vox.</p>
+            <p class="text">Y en 214 secciones Vox y Ciudadanos absorbieron la pérdida del PP y más.</p>
+            <svg>
+                <g class="caida-pp-container"></g>
+            </svg>
 
-        <section>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
+        </article>
+        <article class="district-ara caida-up">
+            <h3 class="subtitle">¿Donde ha ido el voto que ha perdido Unidas Podemos?</h3>
+            <p class="text">En 141 secciones el voto que ha perdido UP no lo ha llegado a absorber por completo el PSOE.</p>
+            <p class="text">En 75 secciones lo que perdió UP lo gano el PSOE.</p>
+            <p class="text">Y en 283 secciones el PSOE absorbió toda pérdida de UP y más.</p>
+            <svg>
+                <g class="caida-up-container"></g>
+            </svg>
 
-        <footer>
+        </article>
+        <article class="district-ara scatter-up">
+            <h3 class="subtitle">Ganancia y pérdida de % de votos de Unidas Podemos</h3>
+            <p class="text">Cada uno de los círculos representa una sección electoral. Las secciones pueden estar formadas por una, dos o tres mesas electorales.</p>
+            <svg>
+                <g class="scatter-up-container"></g>
+            </svg>
 
-        </footer>
+        </article>
+        <article class="district-ara scatter-pp">
+            <h3 class="subtitle">Ganancia y pérdida de % de votos del Partido Popular</h3>
+            <p class="text">Cada uno de los círculos representa una sección electoral. Las secciones pueden estar formadas por una, dos o tres mesas electorales.</p>
+            <svg>
+                <g class="scatter-pp-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara scatter-psoe">
+            <h3 class="subtitle">Ganancia y pérdida de % de votos del Partido Socialista</h3>
+            <p class="text">Cada uno de los círculos representa una sección electoral. Las secciones pueden estar formadas por una, dos o tres mesas electorales.</p>
+            <svg>
+                <g class="scatter-psoe-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara scatter-cs">
+            <h3 class="subtitle">Ganancia y pérdida de % de votos de Ciudadanos</h3>
+            <p class="text">Cada uno de los círculos representa una sección electoral. Las secciones pueden estar formadas por una, dos o tres mesas electorales.</p>
+            <svg>
+                <g class="scatter-cs-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara scatter-vox">
+            <h3 class="subtitle">Ganancia y pérdida de % de votos de Vox</h3>
+            <p class="text">Cada uno de los círculos representa una sección electoral. Las secciones pueden estar formadas por una, dos o tres mesas electorales.</p>
+            <svg>
+                <g class="scatter-vox-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara scatter-ultra-derecha">
+            <h3 class="subtitle">Pérdida de votos del Partido Popular. Ganancia de Vox.</h3>
+            <p class="text">Cada uno de los círculos representa una sección electoral. Las secciones pueden estar formadas por una, dos o tres mesas electorales.</p>
+            <svg>
+                <g class="scatter-ultra-derecha-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz">
+            <h3 class="title">Bipartidismo</h3>
+            <p class="text">Resultados del bipartidismo por distrito desde 1989 hasta 2019.</p>
+            <p class="note">En las elecciones de 1996, 2011, 2015 y 2016 el Partido Popular iba en coalición con el PAR.</p>
+        </article>
+        <article class="district-zgz district-zgz-actur">
+            <h3 class="subtitle">Actur</h3>
+            <svg>
+                <g class="district-zgz-actur-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-aljaferia">
+            <h3 class="subtitle">Aljaferia</h3>
+            <svg>
+                <g class="district-zgz-aljaferia-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-casco">
+            <h3 class="subtitle">Casco Viejo</h3>
+            <svg>
+                <g class="district-zgz-casco-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-centro">
+            <h3 class="subtitle">Centro</h3>
+            <svg>
+                <g class="district-zgz-centro-container"></g>
+            </svg>
+        </article>
+        <article class="district-zgz district-zgz-delicias">
+            <h3 class="subtitle">Delicias</h3>
+            <svg>
+                <g class="district-zgz-delicias-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-las-fuentes">
+            <h3 class="subtitle">Las Fuentes</h3>
+            <svg>
+                <g class="district-zgz-las-fuentes-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-san-jose">
+            <h3 class="subtitle">San Jose</h3>
+            <svg>
+                <g class="district-zgz-san-jose-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-torrero">
+            <h3 class="subtitle">Torrero</h3>
+            <svg>
+                <g class="district-zgz-torrero-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-universidad">
+            <h3 class="subtitle">Universidad</h3>
+            <svg>
+                <g class="district-zgz-universidad-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-via-hispanidad">
+            <h3 class="subtitle">Vía Hispanidad</h3>
+            <svg>
+                <g class="district-zgz-via-hispanidad-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-zona-norte">
+            <h3 class="subtitle">Barrios Zona Norte</h3>
+            <svg>
+                <g class="district-zgz-zona-norte-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz district-zgz-zona-oeste">
+            <h3 class="subtitle">Barrios Zona Oeste</h3>
+            <svg>
+                <g class="district-zgz-zona-oeste-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-zgz">
+            <h3 class="title">Aragonesismo</h3>
+            <p class="text">Resultados del Aragonesismo por distrito desde 1989 hasta 2019.</p>
+            <p class="note">En las elecciones de 1996, 2011, 2015 y 2016 el PAR iba en coalición con el PP. En las de 2011, 2015 y 2016 CHA iba en coalición con IU. En 2019 ninguno de estos dos partidos concurrió a las elecciones.</p>
+        </article>
+        <article class="district-zgz district-ara-actur">
+            <h3 class="subtitle">Actur</h3>
+            <svg>
+                <g class="district-ara-actur-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-aljaferia">
+            <h3 class="subtitle">Aljaferia</h3>
+            <svg>
+                <g class="district-ara-aljaferia-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-casco">
+            <h3 class="subtitle">Casco Viejo</h3>
+            <svg>
+                <g class="district-ara-casco-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-centro">
+            <h3 class="subtitle">Centro</h3>
+            <svg>
+                <g class="district-ara-centro-container"></g>
+            </svg>
+        </article>
+        <article class="district-ara district-ara-delicias">
+            <h3 class="subtitle">Delicias</h3>
+            <svg>
+                <g class="district-ara-delicias-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-las-fuentes">
+            <h3 class="subtitle">Las Fuentes</h3>
+            <svg>
+                <g class="district-ara-las-fuentes-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-san-jose">
+            <h3 class="subtitle">San Jose</h3>
+            <svg>
+                <g class="district-ara-san-jose-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-torrero">
+            <h3 class="subtitle">Torrero</h3>
+            <svg>
+                <g class="district-ara-torrero-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-universidad">
+            <h3 class="subtitle">Universidad</h3>
+            <svg>
+                <g class="district-ara-universidad-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-via-hispanidad">
+            <h3 class="subtitle">Vía Hispanidad</h3>
+            <svg>
+                <g class="district-ara-via-hispanidad-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-zona-norte">
+            <h3 class="subtitle">Barrios Zona Norte</h3>
+            <svg>
+                <g class="district-ara-zona-norte-container"></g>
+            </svg>
+
+        </article>
+        <article class="district-ara district-ara-zona-oeste">
+            <h3 class="subtitle">Barrios Zona Oeste</h3>
+            <svg>
+                <g class="district-ara-zona-oeste-container"></g>
+            </svg>
+
+        </article>
         <script src="js/d3.min.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>

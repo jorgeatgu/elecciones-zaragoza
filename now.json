@@ -1,0 +1,11 @@
+{
+    "name": "28A zaragoza",
+    "env":
+    {
+        "NODE_ENV": "production"
+    },
+    "version": 2,
+    "alias": [
+        "28A zaragoza"
+    ]
+}
