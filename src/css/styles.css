@@ -5,6 +5,11 @@
 */
 
 @import '_variables';
+@import '_proyectos';
+
+* {
+    box-sizing: border-box;
+}
 
 .header {
     font-size: 3rem;
@@ -214,4 +219,3 @@
     }
 
 }
-
